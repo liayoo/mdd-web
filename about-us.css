@@ -1,0 +1,80 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#navbar-left, #navbar-right, #brand-center {
+	float: left;	
+	display: block;
+	padding: 14px 0px;
+	position: relative;
+	text-align: center;
+}
+
+#navbar a{
+	width: 100%;
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+#navbar-left, #navbar-right {
+	width: 40%;
+	padding-top: 21px;
+	padding-bottom: 7px;
+	font-size: 14px;
+}
+
+#brand-center {
+	width: 20%;
+	font-size: 20px;
+}
+
+.main {
+	height: auto;
+	width: 100%;
+}
+
+#intro {
+	/*margin-top: 30px;*/
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	background-image: url(resources/st-louis-arch.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#intro p {
+	padding-top: 10%;
+	width: 100%;
+}
+
+#coaches {
+	height: 500px;
+	text-align: center;
+}
+
+#coaches p {
+	padding-top: 10%;
+	padding-bottom: 20%;
+}
+
+#list-of-coaches {
+	width: 100%;
+}
+
+.coach {
+	width: 200px;
+	margin: 0;
+	padding: 10px 10px;
+	/*float: left;*/
+	display: table-cell;
+}
